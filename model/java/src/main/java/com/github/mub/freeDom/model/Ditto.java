@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model;
+package com.github.mub.freeDom.model;
 
 /**
  * Interface facilitating comparison of the object instances to each other; not quite comparator.

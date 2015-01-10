@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model.type;
+package com.github.mub.freeDom.model.type;
 
 import org.joda.time.DateTime;
 

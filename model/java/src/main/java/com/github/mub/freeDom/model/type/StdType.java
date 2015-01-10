@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model.type;
+package com.github.mub.freeDom.model.type;
 
 /**
  * Standard type - always implies a Java class either in JDK or in a popular 3<sup>rd</sup> party library such as

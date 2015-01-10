@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model;
+package com.github.mub.freeDom.model;
 
 /**
  * Mapping of any Key type to any Value type

@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model.type;
+package com.github.mub.freeDom.model.type;
 
 /**
  * Doubles as a type declaration with the given size.

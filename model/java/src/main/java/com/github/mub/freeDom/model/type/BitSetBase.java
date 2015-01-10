@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model.type;
+package com.github.mub.freeDom.model.type;
 /*
  * Copyright (c) 1995, 2007, Oracle and/or its affiliates. All rights reserved.
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.

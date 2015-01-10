@@ -1,7 +1,6 @@
-package com.giwaintl.freeDom.model;
+package com.github.mub.freeDom.model;
 
-import com.giwaintl.freeDom.model.type.FreeDomType;
-import org.apache.commons.lang3.StringUtils;
+import com.github.mub.freeDom.model.type.FreeDomType;
 
 import java.util.Comparator;
 

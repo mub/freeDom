@@ -1,7 +1,7 @@
-package com.giwaintl.freeDom.parser;
+package com.github.mub.parser;
 
-import com.giwaintl.freeDom.grammars.FreeDomBaseListener;
-import com.giwaintl.freeDom.grammars.FreeDomParser;
+import com.github.mub.grammars.FreeDomBaseListener;
+import com.github.mub.grammars.FreeDomParser;
 import org.antlr.v4.runtime.misc.NotNull;
 import org.slf4j.Logger;
 

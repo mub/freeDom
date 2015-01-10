@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.parser;
+package com.github.mub.parser;
 
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.misc.NotNull;

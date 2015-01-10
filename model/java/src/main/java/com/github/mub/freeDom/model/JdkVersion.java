@@ -1,4 +1,4 @@
-package com.giwaintl.freeDom.model;
+package com.github.mub.freeDom.model;
 
 /**
  * @author Jorge U

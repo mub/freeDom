@@ -23,7 +23,7 @@
 
     <loggers>
 
-        <logger name="com.giwaintl" level="trace" additivity="false">
+        <logger name="com.github" level="trace" additivity="false">
             <appender-ref ref="File"/>
         </logger>
 
