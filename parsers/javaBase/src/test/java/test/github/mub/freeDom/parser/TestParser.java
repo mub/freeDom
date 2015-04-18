@@ -1,8 +1,8 @@
-package test.giwaintl.freeDom.parser;
+package test.github.mub.freeDom.parser;
 
-import com.github.mub.grammars.FreeDomBaseListener;
-import com.github.mub.grammars.FreeDomLexer;
-import com.github.mub.grammars.FreeDomParser;
+import com.github.mub.freeDom.grammars.FreeDomBaseListener;
+import com.github.mub.freeDom.grammars.FreeDomLexer;
+import com.github.mub.freeDom.grammars.FreeDomParser;
 import com.google.common.io.Files;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;

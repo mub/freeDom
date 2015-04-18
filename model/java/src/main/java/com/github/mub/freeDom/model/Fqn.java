@@ -10,7 +10,18 @@ import static com.google.common.base.Joiner.on;
 import static java.util.Arrays.asList;
 
 /**
- * Fully qualified name
+ * Fully qualified name, consists of an ordered list of strings normally expressed as:
+ * <tt>com.package.subpackage.Name</tt>. Relates to "namespace" in C++ and "package name" in Java.
+ *
+ * <p>
+ *     The last string in the sequence is referred to as "base" (see {@link #getBase()}, the rest is referred to
+ *     as "namespace" (see {@link #getNameSpace()}.
+ * </p>
+ *
+ * <p>
+ *     This class is immutable, thread-safe. Please keep it this way.
+ * </p>
+ * @author mb
  * @author Jorge U
  */
 @SuppressWarnings("EqualsWhichDoesntCheckParameterClass") public class Fqn {

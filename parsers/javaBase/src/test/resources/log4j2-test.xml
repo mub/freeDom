@@ -27,7 +27,7 @@
             <appender-ref ref="File"/>
         </logger>
 
-        <logger name="test.giwaintl" level="trace" additivity="false">
+        <logger name="test.github" level="trace" additivity="false">
             <appender-ref ref="File"/>
         </logger>
 

@@ -6,7 +6,7 @@
     <groupId>com.github.mub</groupId>
     <artifactId>freeDomModel</artifactId>
     <!-- this needs a distinct name because it becomes the name of the jar-->
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <packaging>jar</packaging>
     <name>FreeDom Model</name>
     <description>FreeDom model in Java</description>

@@ -1,7 +1,7 @@
 package test.github.mub.freeDom.model;
 
 import com.github.mub.freeDom.model.Fqn;
-import com.github.mub.freeDom.model.type.DomEnumType;
+import com.github.mub.freeDom.model.DomEnumType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

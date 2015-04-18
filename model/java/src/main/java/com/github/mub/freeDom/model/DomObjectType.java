@@ -1,6 +1,4 @@
-package com.github.mub.freeDom.model.type;
-
-import com.github.mub.freeDom.model.Fqn;
+package com.github.mub.freeDom.model;
 
 /**
  * Ancestor for all Dom objects: enums, structs and whatever we will implement later
@@ -12,6 +10,9 @@ public class DomObjectType implements FreeDomType {
         this.name = name;
     }
 
+    /**
+     * Dumb accessor for the name; since {@link Fqn}
+     */
     public Fqn getName() {
         return name;
     }

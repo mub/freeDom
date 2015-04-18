@@ -1,4 +1,4 @@
-package com.github.mub.parser;
+package com.github.mub.freeDom.parser;
 
 import java.io.IOException;
 import java.util.Arrays;

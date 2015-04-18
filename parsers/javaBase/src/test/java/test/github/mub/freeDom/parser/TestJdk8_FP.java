@@ -1,4 +1,4 @@
-package test.giwaintl.freeDom.parser;
+package test.github.mub.freeDom.parser;
 
 import org.junit.After;
 import org.junit.Before;

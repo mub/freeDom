@@ -8,3 +8,4 @@ Maven repository creation ticket: [`OSSRH-13086`](https://issues.sonatype.org/br
 * [Release to staging](https://oss.sonatype.org/service/local/staging/deploy/maven2)
 * [Download snapshot and release](https://oss.sonatype.org/content/groups/public)
 * [Download snapshot, release and staging](https://oss.sonatype.org/content/groups/staging)
+* [Administer, release](https://oss.sonatype.org/#stagingRepositories)

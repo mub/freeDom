@@ -53,7 +53,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.mub.parser.ParserMain</mainClass>
+                            <mainClass>com.github.mub.freeDom.parser.ParserMain</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -87,7 +87,7 @@
                 </executions>
                 <configuration>
                     <classpathScope>test</classpathScope>
-                    <mainClass>com.github.mub.parser.ParserMain</mainClass>
+                    <mainClass>com.github.mub.freeDom.parser.ParserMain</mainClass>
                     <systemProperties>
                         <systemProperty>
                             <key>prop</key>
@@ -170,65 +170,15 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Log4j2
-        see http://logging.apache.org/log4j/2.x/maven-artifacts.html for details
-         -->
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.0-beta9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.0-beta9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-slf4j-impl</artifactId>
-            <version>2.0-beta9</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.5</version>
-        </dependency>
-        <!-- Log4J was phased out, replaced with Log4J2 -->
-        <!--dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency-->
-        <dependency> <!-- can get source from http://code.google.com/p/jsr-305/source/checkout -->
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>jsr305</artifactId>
-            <version>2.0.3</version>
-        </dependency>
-
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4-runtime</artifactId>
             <version>4.3</version>
         </dependency>
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>18.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>3.3.2</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-collections4</artifactId>
-            <version>4.0</version>
-        </dependency>
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.4</version>
+            <groupId>com.github.mub</groupId>
+            <artifactId>freeDomModel</artifactId>
+            <version>1.1.0</version>
         </dependency>
         <!-- JFlex has not impressed, not good at all -->
         <!--dependency>

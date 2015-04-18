@@ -1,7 +1,5 @@
 package com.github.mub.freeDom.model;
 
-import com.github.mub.freeDom.model.type.FreeDomType;
-
 import java.util.Comparator;
 
 /**
