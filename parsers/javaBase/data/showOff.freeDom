@@ -1,4 +1,11 @@
 /*
+
+    This is a showcase of all features of the FreeDOM DSL (Domain Specific Language) to describe data structures.
+
+    Note that temporal data type is built-in, that's a feature absent from othe DLSs of this kind such as ProtoBuf, Avro, Thrift, you name it.
+
+    There are other features that will make FreeDOM indispensable.
+
     Some comments
     Not docs! We do not provide docs feature here because it is impossible to accomodate all possible platforms
     for specific platform documentation formats - this is a much bigger project than the whole this one.
@@ -6,6 +13,8 @@
 
     At best, we could build a documentation tool like javadoc or rdoc or yard which would generate pages
     from common mark-up.
+
+    (c) Michael Uri Bergens and team, 2015
 */
 
 ver "123.23.456"
